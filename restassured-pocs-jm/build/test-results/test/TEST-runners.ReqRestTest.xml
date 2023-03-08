@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="runners.ReqRestTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-08T22:20:02" hostname="ROOT" time="4.863">
+  <properties/>
+  <testcase name="registerUserTest()" classname="runners.ReqRestTest" time="4.863"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "pistol",
+    "email": "eve.holt@reqres.in"
+}
+HTTP/1.1 200 OK
+Date: Wed, 08 Mar 2023 22:20:06 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"24-4iP0za1geN2he+ohu8F0FhCjLks"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=a4GHu861AgKL8jjoIqpw8TbSyIOGqMTjF%2FTwSDKbg7Sd7pJAn3HJtV3DA%2FWUr9U1Rz8zuSfBnyr04JfizNT9DBD%2B4c%2FHWMj%2F%2BjqHfUQyWCoabWr5fq0PGsvc9g%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7a4e76aae9e1daad-MIA
+
+{
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
